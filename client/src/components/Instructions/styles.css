@@ -1,0 +1,21 @@
+.instruct{
+  background-color: #aad8d3;
+  display: flex;
+  overflow: visible;
+  height: 350px;
+}
+
+.instruct > div{
+  padding: 20px 0px 50px 50px;
+}
+
+.instruct > img{
+  height: 450px;
+  margin: -50px 0px -10px auto;
+}
+
+@media(max-width:700px){
+  .instruct > img{
+    display: none;
+  }
+}

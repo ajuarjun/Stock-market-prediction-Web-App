@@ -1,0 +1,23 @@
+#logo{
+  border-radius: 50%;
+  height:70px;
+  width: 70px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.mynav{
+  border-radius: 0px 0px 10px 10px;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+@media(max-width:700px){
+  .mynav > div > ul{
+    display: block;
+    text-align: center;
+  }
+  .mynav{
+    position: absolute;
+  }
+}

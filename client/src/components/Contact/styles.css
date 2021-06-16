@@ -1,0 +1,40 @@
+.contact{
+  background-color: #181B31;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  border-top: #00adb5 dashed 4px;
+}
+
+.foot{
+  position:absolute;
+  width:100%;
+  bottom: 0;
+}
+
+.icon{
+  margin: 5px 100px;
+  color: white;
+  text-decoration: none;
+}
+
+.icon:hover{
+  text-decoration: none;
+  color: white;
+}
+
+.pulldown{
+  position: absolute;
+  margin-top: 800px;
+  width: 100%;
+}
+
+@media(max-width:700px){
+  .icon{
+    margin: 5px 50px;
+  }
+
+  .pulldown{
+    margin-top: 1100px;
+  }
+}

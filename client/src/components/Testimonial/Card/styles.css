@@ -1,0 +1,38 @@
+.card{
+  background-color: white;
+  border: solid white;
+  border-radius: 20px;
+  display: flex;
+  margin: 40px;
+  font-size: 30px;
+}
+
+.card_image{
+  height: 25%;
+  width: 25%;
+  border-radius: 20px 0px 0px 20px;
+  margin: -3px;
+}
+
+.card > div > p{
+  margin: 20px;
+}
+
+.card > div > h4{
+  font-size: 25px;
+  margin-right: 100px;
+  text-align: right;
+}
+
+@media(max-width:700px){
+  .card{
+    display: block;
+    font-size: 20px;
+  }
+
+  .card_image{
+    border-radius: 20px 20px 0px 0px;
+    height: 100%;
+    width: 101%;
+  }
+}
